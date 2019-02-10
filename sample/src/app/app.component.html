@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:left; font-family: Arial, Helvetica, sans-serif;">
+    <h1>
+        Welcome to {{ title }}!
+    </h1>
+</div>
+<ul>
+    <li *ngFor="let menu of menus; let i = index">
+        <span>{{menu.date}} {{menu.items}}</span>
+    </li>
+</ul>
